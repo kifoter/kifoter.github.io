@@ -1,0 +1,47 @@
+html, body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#container {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+canvas {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+#content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#yesButton {
+	position: absolute;
+	top: 47vh;
+	left: 32vw;
+	width: 15vw;
+	height: 10vh;
+	background-color: #93ed96;
+	border: none;
+	z-index: 2;
+}
+#noButton {
+	position: absolute;
+	top: 47vh;
+	left: 54vw;
+	width: 15vw;
+	height: 10vh;
+	background-color: #ed9393;
+	border: none;
+}
+#question {
+	text-align: center;
+	margin-top: 25vh;
+	font-style: italic;
+	color: hotpink;
+	font-family: cursive;
+}
