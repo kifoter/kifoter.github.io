@@ -29,7 +29,8 @@ canvas {
 	border: none;
 	z-index: 2;
 	color: whitesmoke;
-	font-family: cursive;
+	font-family: monospace;
+	font-weight: 1000;
 }
 #noButton {
 	position: absolute;
@@ -40,12 +41,14 @@ canvas {
 	background-color: #ed9393;
 	border: none;
 	color: whitesmoke;
-	font-family: cursive;
+	font-family: monospace;
+	font-weight: 1000;
 }
 #question {
 	text-align: center;
 	margin-top: 25vh;
 	font-style: italic;
 	color: hotpink;
-	font-family: cursive;
+	font-weight: 1000;
+	font-family: monospace;
 }
