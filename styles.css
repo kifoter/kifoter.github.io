@@ -28,6 +28,7 @@ canvas {
 	background-color: #93ed96;
 	border: none;
 	z-index: 2;
+	color: white;
 }
 #noButton {
 	position: absolute;
@@ -37,6 +38,7 @@ canvas {
 	height: 10vh;
 	background-color: #ed9393;
 	border: none;
+	color: white;
 }
 #question {
 	text-align: center;
